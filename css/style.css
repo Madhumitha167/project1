@@ -1,0 +1,141 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.class1{
+    background-color: rgb(250, 104, 60);
+}
+.twhite{
+    color: white;
+    font-weight: bolder;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+   
+}
+.img-res{
+    width: 100%;
+    margin-left: 20%;
+}
+.p{
+    padding-left: 20px;
+    background-color: rgb(250, 199, 162);
+    color: coral;
+    text-align: center;
+}
+.food-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.food-card{
+    border: 1px solid white;
+    box-shadow: 1px 1px 1px 2px rgb(226, 209, 195);
+    width: 250px;
+   
+}
+.order-btn{
+    background-color:rgb(248, 105, 22) ;
+    padding: 10px 24px;
+    display: inline-block;
+    border-radius: 60px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    margin-left: 4rem;
+}
+.order-btn:hover{
+    border: solid 1px rgb(252, 101, 14);
+    color: rgb(252, 101, 14);
+    background-color: white;
+   
+
+}
+.food-img {
+        float: left;
+        width:  249px;
+        height: 144px;
+        object-fit: cover;
+    
+    }
+.food-title{
+    text-align: center;
+    color: rgb(255, 113, 19);
+    font-size: 45px;
+    font-weight: bolder;
+}
+.navbar{
+    color: rgb(255, 113, 19);
+}
+.nav{
+    margin: 0px 12px;
+}
+.a{
+    text-decoration: none;
+    color: rgb(255, 113, 19);
+    font-size: 21px;
+    margin: 10px;
+    font-weight: 700px;
+ }
+ .a:hover{
+     color: black;
+ }
+ .bg{
+     background-color:  rgb(250, 104, 60);
+ }
+ .download-img{
+    width: 180px;
+ }
+ .download-container{
+     display:flex;
+     background-color:  rgb(250, 104, 60);
+     justify-content: center;
+ }
+ .mgint1{
+     margin-top: 40px;
+     margin-bottom: 20px;
+ }
+ .mgint2{
+     margin-top:26px;
+ }
+
+ .a-img{
+    width: 60%;
+    margin-left: 20%;
+ }
+ .a-textcenter{
+     text-align: center;
+ }
+ .a-bg{
+     background-color: rgb(223, 177, 160);
+ }
+ .a-mt{
+     margin-top: 40px;
+     margin-left: 15px;
+ }
+
+ .a-t-bg{
+     background-color: rgb(20, 20, 20);
+     color: white;
+ }
+ .marginlr{
+     margin-left: 30px;
+     margin-right: 30px;
+ }
+.mt1-5{
+    margin-top: 35px;
+}
+.pb1-2{
+    padding-bottom: 18px;
+}
+.pt1-3{
+    padding-top: 30px;
+}
+.pt1-2{
+    padding-top: 20px;
+}
